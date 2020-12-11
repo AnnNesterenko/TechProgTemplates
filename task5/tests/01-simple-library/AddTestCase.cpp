@@ -5,3 +5,7 @@
 #include "AddTestCase.h"
 #include "Functions.h"
 
+TEST(AddTest, SimpleAddTest){
+    EXPECT_EQ(Add(2, 2), 4);
+}
+
